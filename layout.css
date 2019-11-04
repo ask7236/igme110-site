@@ -85,14 +85,18 @@ color: maroon;
 }
 .img3{
     margin: 0 auto;
-    
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 
 .p1Link{
     color: #1499A6; 
 }
 
-.p1Link: visited{
+.p1Link:visited{
     color: orange;
 }
 
